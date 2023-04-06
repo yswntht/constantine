@@ -1,7 +1,8 @@
 # fix for the llvm-9 attributes.inc not found
 
-https://reviews.llvm.org/D64357 (alredy taken care by constatine)
-https://github.com/SVF-tools/SVF/issues/147 
+[fix1](https://reviews.llvm.org/D64357) (alredy taken care by constatine)
+
+[fix2](https://github.com/SVF-tools/SVF/issues/147)(use clang instead of gcc to compile when cmake for llvm)
 
 
 # Constantine
