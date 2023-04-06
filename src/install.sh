@@ -9,7 +9,7 @@ LLVM_VERSION=${LLVM_VERSION:-9}
 #
 # Binutils
 #
-wget ftp://sourceware.org/pub/binutils/snapshots/binutils-${BINUTILS_VERSION}.tar.xz
+#wget ftp://sourceware.org/pub/binutils/snapshots/binutils-${BINUTILS_VERSION}.tar.xz
 tar xvfJ binutils-${BINUTILS_VERSION}.tar.xz
 rm -f binutils-${BINUTILS_VERSION}.tar.xz
 cd binutils-${BINUTILS_VERSION}
