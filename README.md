@@ -1,6 +1,7 @@
 # fix for the llvm-9 attributes.inc not found
 
-https://reviews.llvm.org/D64357
+https://reviews.llvm.org/D64357 (alredy taken care by constatine)
+https://github.com/SVF-tools/SVF/issues/147 
 
 
 # Constantine
