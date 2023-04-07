@@ -6,6 +6,8 @@
 
 [fix3](https://github.com/easybuilders/easybuild-easyconfigs/issues/14998) (first set the clang version 7 and use that in cmake. then makesure that python has module distutils.spawn. i forced to use python 3.7 instead of default 3.8 in ubunutu 20.04)
 
+[fix4] be sure run `make intrinsics_gen` after `cmake ........` and before `make && make install`
+
 
 # Constantine
 This is the home of `Constantine`: a compiler-based system to automatically harden programs against microarchitectural side channels.
